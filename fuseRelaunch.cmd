@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/university/3991/fpga/homeworks/Encrypted_lock/test_encrypted_lock_isim_beh.exe" -prj "E:/university/3991/fpga/homeworks/Encrypted_lock/test_encrypted_lock_beh.prj" "work.test_encrypted_lock" "work.glbl" 
