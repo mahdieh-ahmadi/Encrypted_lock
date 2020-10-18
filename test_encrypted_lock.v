@@ -61,21 +61,13 @@ module test_encrypted_lock;
 		// Add stimulus here
 		
 		a = 0;
-		b = 0;
+		b = 1;
 		c = 0;
-		d = 0;
+		d = 1;
 		e = 0;
-		f = 0;
+		f = 1;
 
-		#100;
 		
-		a = 0;
-		b = 0;
-		c = 0;
-		d = 0;
-		e = 0;
-		f = 0;
-
 		#100;
 		
 		a = 1;

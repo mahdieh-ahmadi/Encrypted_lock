@@ -8,3 +8,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 encrypted_l
 map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o encrypted_lock_map.ncd encrypted_lock.ngd encrypted_lock.pcf 
 par -w -intstyle ise -ol high -mt off encrypted_lock_map.ncd encrypted_lock.ncd encrypted_lock.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml encrypted_lock.twx encrypted_lock.ncd -o encrypted_lock.twr encrypted_lock.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/Encrypted_lock/encrypted_lock.xst" -ofn "E:/university/3991/fpga/homeworks/Encrypted_lock/encrypted_lock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 encrypted_lock.ngc encrypted_lock.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o encrypted_lock_map.ncd encrypted_lock.ngd encrypted_lock.pcf 
+par -w -intstyle ise -ol high -mt off encrypted_lock_map.ncd encrypted_lock.ncd encrypted_lock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml encrypted_lock.twx encrypted_lock.ncd -o encrypted_lock.twr encrypted_lock.pcf 

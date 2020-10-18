@@ -31,6 +31,6 @@ module encrypted_lock(
 	or(w1,a,b);
 	not(dnot,d);
 	not(fnot,f);
-	and(z,w1,c,dnot,e,fnot);
+	and(z,w1,c,dnot,e,fnot); // z = (a+b)cd'ef'
 
 endmodule

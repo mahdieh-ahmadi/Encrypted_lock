@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-RBQDBFC::  Sat Oct 17 10:57:30 2020
+DESKTOP-RBQDBFC::  Sun Oct 18 18:52:46 2020
 
 par -w -intstyle ise -ol high -mt off encrypted_lock_map.ncd encrypted_lock.ncd
 encrypted_lock.pcf 
@@ -108,7 +108,7 @@ Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3
 Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
-Total REAL time to Router completion: 3 secs 
+Total REAL time to Router completion: 4 secs 
 Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status

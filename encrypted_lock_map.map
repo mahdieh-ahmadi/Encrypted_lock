@@ -11,7 +11,7 @@ Target Device  : xc6slx4
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 17 10:57:23 2020
+Mapped Date    : Sun Oct 18 18:52:39 2020
 
 Mapping design into LUTs...
 Running directed packing...
@@ -21,7 +21,7 @@ INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
 Total REAL time at the beginning of Placer: 4 secs 
-Total CPU  time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:29) REAL time: 4 secs 
